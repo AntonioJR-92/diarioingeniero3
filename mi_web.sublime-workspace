@@ -8,15 +8,846 @@
 	"buffers":
 	[
 		{
-			"file": "viajes/iberia/viajes_iberia_es.html",
-			"file_size": 90739,
-			"file_write_time": 134386396071064859,
+			"file": "viajes/europa/viajes_irlanda_es.html",
+			"file_size": 46137,
+			"file_write_time": 134391700574750725,
 			"settings":
 			{
-				"buffer_size": 89915,
+				"buffer_size": 45525,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAPV2AAAAAAAAK3cAAAAAAAALAAAAMC4gRXNwYcOxYS4",
+					"AQAAAAAAAAABAAAA/3YAAAAAAAD1dgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAAKx2AAAAAAAArXYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArHYAAAAAAACsdgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"paste",
+					null,
+					"AQAAAK52AAAAAAAAtXYAAAAAAAAGAAAAaWJlcmlh",
+					"AQAAAAAAAAABAAAArnYAAAAAAAC0dgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAAJp3AAAAAAAAm3cAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmncAAAAAAACadwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "1_"
+					},
+					"AgAAAK52AAAAAAAAr3YAAAAAAAAAAAAAr3YAAAAAAACwdgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArnYAAAAAAACudgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"paste",
+					null,
+					"AQAAAJZ3AAAAAAAAqncAAAAAAAASAAAAdmlhamVzMV9pcmxhbmRhX2Vz",
+					"AQAAAAAAAAABAAAAlncAAAAAAACodwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAJ53AAAAAAAAn3cAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAAn3cAAAAAAACedwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAADZ4AAAAAAAAN3gAAAAAAAAAAAAAN3gAAAAAAABDeAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANngAAAAAAAA2eAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					61,
+					1,
+					"paste",
+					null,
+					"AQAAADd4AAAAAAAA8XkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAN3gAAAAAAAA3eAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAPF5AAAAAAAA8nkAAAAAAAAAAAAA8nkAAAAAAAD+eQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8XkAAAAAAADxeQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"paste",
+					null,
+					"AQAAAPJ5AAAAAAAArHsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8nkAAAAAAADyeQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					67,
+					2,
+					"left_delete",
+					null,
+					"AgAAAOJ6AAAAAAAA4noAAAAAAADJAAAAICAgICAgICAgICAgPGEgaHJlZj0iLi4vLi4vdmlhamVzL2liZXJpYS92aWFqZXMxXzJfaXJsYW5kYV9lcy5odG1sIj48ZGl2IGNsYXNzPSJwLTMgbWItMiBiZy1wcmltYXJ5IHRleHQtd2hpdGUiPjxzdHJvbmc+PGg0PjEuIElybGFuZGEgLSBEdWJsaW4uPC9oND48L3N0cm9uZz48ZW0+NSBhIDExIGRlIGFnb3N0byBkZSAyMDIxPC9lbT48L2Rpdj48L2E+4XoAAAAAAADhegAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAq3sAAAAAAADiegAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"paste",
+					null,
+					"AQAAAOl3AAAAAAAAHXgAAAAAAAAUAAAAMS4gSXJsYW5kYSAtIER1Ymxpbi4",
+					"AQAAAAAAAAABAAAA6XcAAAAAAAD9dwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": "DE"
+					},
+					"AgAAADF4AAAAAAAAMngAAAAAAAAWAAAAYSAxMSBkZSBhZ29zdG8gZGUgMjAyMTJ4AAAAAAAAM3gAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAR3gAAAAAAAAxeAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					1,
+					"insert",
+					{
+						"characters": " MAYOR"
+					},
+					"BgAAADN4AAAAAAAANHgAAAAAAAAAAAAANHgAAAAAAAA1eAAAAAAAAAAAAAA1eAAAAAAAADZ4AAAAAAAAAAAAADZ4AAAAAAAAN3gAAAAAAAAAAAAAN3gAAAAAAAA4eAAAAAAAAAAAAAA4eAAAAAAAADl4AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAM3gAAAAAAAAzeAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					8,
+					"left_delete",
+					null,
+					"CAAAADh4AAAAAAAAOHgAAAAAAAABAAAAUjd4AAAAAAAAN3gAAAAAAAABAAAATzZ4AAAAAAAANngAAAAAAAABAAAAWTV4AAAAAAAANXgAAAAAAAABAAAAQTR4AAAAAAAANHgAAAAAAAABAAAATTN4AAAAAAAAM3gAAAAAAAABAAAAIDJ4AAAAAAAAMngAAAAAAAABAAAARTF4AAAAAAAAMXgAAAAAAAABAAAARA",
+					"AQAAAAAAAAABAAAAOXgAAAAAAAA5eAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					76,
+					1,
+					"insert",
+					{
+						"characters": "de"
+					},
+					"AgAAADF4AAAAAAAAMngAAAAAAAAAAAAAMngAAAAAAAAzeAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMXgAAAAAAAAxeAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"insert",
+					{
+						"characters": " mayo"
+					},
+					"BQAAADN4AAAAAAAANHgAAAAAAAAAAAAANHgAAAAAAAA1eAAAAAAAAAAAAAA1eAAAAAAAADZ4AAAAAAAAAAAAADZ4AAAAAAAAN3gAAAAAAAAAAAAAN3gAAAAAAAA4eAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAM3gAAAAAAAAzeAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": " de"
+					},
+					"AwAAADh4AAAAAAAAOXgAAAAAAAAAAAAAOXgAAAAAAAA6eAAAAAAAAAAAAAA6eAAAAAAAADt4AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOHgAAAAAAAA4eAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					79,
+					1,
+					"insert",
+					{
+						"characters": " 2024"
+					},
+					"BQAAADt4AAAAAAAAPHgAAAAAAAAAAAAAPHgAAAAAAAA9eAAAAAAAAAAAAAA9eAAAAAAAAD54AAAAAAAAAAAAAD54AAAAAAAAP3gAAAAAAAAAAAAAP3gAAAAAAABAeAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAO3gAAAAAAAA7eAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					85,
+					1,
+					"paste",
+					null,
+					"AQAAAEF3AAAAAAAAUncAAAAAAAALAAAAMjAyMSBhIDIwMjc",
+					"AQAAAAAAAAABAAAATHcAAAAAAABBdwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					88,
+					1,
+					"insert",
+					{
+						"characters": "6"
+					},
+					"AQAAADV4AAAAAAAANngAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAANngAAAAAAAA1eAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					91,
+					1,
+					"paste",
+					null,
+					"AQAAABp5AAAAAAAAK3kAAAAAAAALAAAAMjAyMSBhIDIwMjc",
+					"AQAAAAAAAAABAAAAJXkAAAAAAAAaeQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					94,
+					1,
+					"insert",
+					{
+						"characters": "8"
+					},
+					"AQAAABt5AAAAAAAAHHkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAG3kAAAAAAAAbeQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					97,
+					1,
+					"left_delete",
+					null,
+					"AQAAABp5AAAAAAAAGnkAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAAG3kAAAAAAAAbeQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					100,
+					1,
+					"paste",
+					null,
+					"AQAAANt6AAAAAAAA7HoAAAAAAAALAAAAMjAyMSBhIDIwMjc",
+					"AQAAAAAAAAABAAAA5noAAAAAAADbegAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					103,
+					1,
+					"insert",
+					{
+						"characters": "10"
+					},
+					"AgAAANt6AAAAAAAA3HoAAAAAAAABAAAANdx6AAAAAAAA3XoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3HoAAAAAAADbegAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					106,
+					1,
+					"paste",
+					null,
+					"AQAAAO55AAAAAAAA/3kAAAAAAAAYAAAANSBhIDExIGRlIGFnb3N0byBkZSAyMDIx",
+					"AQAAAAAAAAABAAAABnoAAAAAAADueQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					1,
+					"left_delete",
+					null,
+					"AQAAAO55AAAAAAAA7nkAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAA73kAAAAAAADveQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					110,
+					1,
+					"insert",
+					{
+						"characters": "8"
+					},
+					"AQAAAO55AAAAAAAA73kAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7nkAAAAAAADueQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					113,
+					1,
+					"paste",
+					null,
+					"AQAAANJ4AAAAAAAA8ngAAAAAAAA4AAAARMOtYSAxLCBEdWJsaW4gdmlhamVyby4gRWRpZmljaW9zIHJlbGlnaW9zb3MgZGUgRHVibMOtbi4",
+					"AQAAAAAAAAABAAAA0ngAAAAAAAAIeQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					116,
+					1,
+					"paste",
+					null,
+					"AQAAALJ5AAAAAAAA3nkAAAAAAAAUAAAAMS4gSXJsYW5kYSAtIER1Ymxpbi4",
+					"AQAAAAAAAAABAAAAsnkAAAAAAADGeQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					119,
+					1,
+					"left_delete",
+					null,
+					"AQAAAO94AAAAAAAA73gAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAA8HgAAAAAAADweAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					120,
+					1,
+					"insert",
+					{
+						"characters": "í"
+					},
+					"AQAAAO94AAAAAAAA8HgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA73gAAAAAAADveAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					130,
+					1,
+					"paste",
+					null,
+					"AQAAACh3AAAAAAAALncAAAAAAAAHAAAARHVibMOtbg",
+					"AQAAAAAAAAABAAAAKHcAAAAAAAAudwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					135,
+					1,
+					"paste",
+					null,
+					"AQAAANd5AAAAAAAA3XkAAAAAAAAGAAAARHVibGlu",
+					"AQAAAAAAAAABAAAA13kAAAAAAADdeQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					140,
+					1,
+					"paste",
+					null,
+					"AQAAAI56AAAAAAAAvnoAAAAAAABcAAAARMOtYSAxLCBEdWJsaW4gdmlhamVyby4gRWRpZmljaW9zIHJlbGlnaW9zb3MgZGUgRHVibMOtbi48L2g0Pjwvc3Ryb25nPjxlbT4xMCBkZSBtYXlvIGRlIDIwMjQ",
+					"AQAAAAAAAAABAAAAjnoAAAAAAADoegAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					147,
+					1,
+					"insert",
+					{
+						"characters": "ocio"
+					},
+					"BAAAAK96AAAAAAAAsHoAAAAAAAAFAAAAbm9jaGWwegAAAAAAALF6AAAAAAAAAAAAALF6AAAAAAAAsnoAAAAAAAAAAAAAsnoAAAAAAACzegAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAr3oAAAAAAAC0egAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					148,
+					1,
+					"insert",
+					{
+						"characters": " nocturno"
+					},
+					"CQAAALN6AAAAAAAAtHoAAAAAAAAAAAAAtHoAAAAAAAC1egAAAAAAAAAAAAC1egAAAAAAALZ6AAAAAAAAAAAAALZ6AAAAAAAAt3oAAAAAAAAAAAAAt3oAAAAAAAC4egAAAAAAAAAAAAC4egAAAAAAALl6AAAAAAAAAAAAALl6AAAAAAAAunoAAAAAAAAAAAAAunoAAAAAAAC7egAAAAAAAAAAAAC7egAAAAAAALx6AAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAs3oAAAAAAACzegAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					151,
+					1,
+					"right_delete",
+					null,
+					"AQAAAEN6AAAAAAAAQ3oAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAAQ3oAAAAAAABDegAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					152,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AQAAAEN6AAAAAAAARHoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQ3oAAAAAAABDegAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					154,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGd5AAAAAAAAZ3kAAAAAAAABAAAAMg",
+					"AQAAAAAAAAABAAAAaHkAAAAAAABoeQAAAAAAAAAAAAAAgHtA"
+				],
+				[
+					155,
+					1,
+					"insert",
+					{
+						"characters": "4"
+					},
+					"AQAAAGd5AAAAAAAAaHkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZ3kAAAAAAABneQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					157,
+					1,
+					"left_delete",
+					null,
+					"AQAAAId4AAAAAAAAh3gAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAAiHgAAAAAAACIeAAAAAAAAAAAAAAAgHtA"
+				],
+				[
+					158,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAId4AAAAAAAAiHgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAh3gAAAAAAACHeAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					164,
+					1,
+					"insert",
+					{
+						"characters": "1_"
+					},
+					"AgAAAA10AAAAAAAADnQAAAAAAAAAAAAADnQAAAAAAAAPdAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADXQAAAAAAAANdAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					167,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJFxAAAAAAAAkXEAAAAAAAAZAAAACiAgICAgICAgICAgICAgICA8YnI+PGJyPg",
+					"AQAAAAAAAAABAAAAqnEAAAAAAACRcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					170,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAPxxAAAAAAAA/XEAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAA/XEAAAAAAAD8cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					173,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAAlyAAAAAAAACnIAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAACXIAAAAAAAAKcgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					178,
+					1,
+					"insert",
+					{
+						"characters": "Irlanda"
+					},
+					"BwAAAG1xAAAAAAAAbnEAAAAAAAAGAAAARXVyb3BhbnEAAAAAAABvcQAAAAAAAAAAAABvcQAAAAAAAHBxAAAAAAAAAAAAAHBxAAAAAAAAcXEAAAAAAAAAAAAAcXEAAAAAAABycQAAAAAAAAAAAABycQAAAAAAAHNxAAAAAAAAAAAAAHNxAAAAAAAAdHEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbXEAAAAAAABzcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					181,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAHlxAAAAAAAAenEAAAAAAAAAAAAAenEAAAAAAACKcQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeXEAAAAAAAB5cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					184,
+					1,
+					"paste",
+					null,
+					"AQAAAHlxAAAAAAAA+nEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeXEAAAAAAAB5cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					187,
+					15,
+					"left_delete",
+					null,
+					"EAAAAIhxAAAAAAAAiHEAAAAAAAABAAAAIPpxAAAAAAAA+nEAAAAAAAAQAAAAICAgICAgICAgICAgICAgIIdxAAAAAAAAh3EAAAAAAAABAAAAIIZxAAAAAAAAhnEAAAAAAAABAAAAIIVxAAAAAAAAhXEAAAAAAAABAAAAIIRxAAAAAAAAhHEAAAAAAAABAAAAIINxAAAAAAAAg3EAAAAAAAABAAAAIIJxAAAAAAAAgnEAAAAAAAABAAAAIIFxAAAAAAAAgXEAAAAAAAABAAAAIIBxAAAAAAAAgHEAAAAAAAABAAAAIH9xAAAAAAAAf3EAAAAAAAABAAAAIH5xAAAAAAAAfnEAAAAAAAABAAAAIH1xAAAAAAAAfXEAAAAAAAABAAAAIHxxAAAAAAAAfHEAAAAAAAABAAAAIHtxAAAAAAAAe3EAAAAAAAABAAAAIHpxAAAAAAAAenEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAiXEAAAAAAACJcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					188,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHlxAAAAAAAAeXEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAenEAAAAAAAB6cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					189,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAHlxAAAAAAAAenEAAAAAAAAAAAAAenEAAAAAAACKcQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeXEAAAAAAAB5cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					195,
+					1,
+					"paste",
+					null,
+					"AQAAAKxxAAAAAAAAynEAAAAAAAApAAAAaW1hZ3MvdmlhamVzL2lybGFuZGEvdjAxLzAxMDEwNC0zOS1kdWJsaW4",
+					"AQAAAAAAAAABAAAArHEAAAAAAADVcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					200,
+					1,
+					"paste",
+					null,
+					"AQAAAMdxAAAAAAAA03EAAAAAAAADAAAAbTAx",
+					"AQAAAAAAAAABAAAAx3EAAAAAAADKcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					203,
+					1,
+					"insert",
+					{
+						"characters": "Flag"
+					},
+					"BAAAAN5xAAAAAAAA33EAAAAAAAAXAAAAVHJpbml0eSBDb2xsZWdlLCBEdWJsaW7fcQAAAAAAAOBxAAAAAAAAAAAAAOBxAAAAAAAA4XEAAAAAAAAAAAAA4XEAAAAAAADicQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9XEAAAAAAADecQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					204,
+					1,
+					"insert",
+					{
+						"characters": " irlanda"
+					},
+					"CAAAAOJxAAAAAAAA43EAAAAAAAAAAAAA43EAAAAAAADkcQAAAAAAAAAAAADkcQAAAAAAAOVxAAAAAAAAAAAAAOVxAAAAAAAA5nEAAAAAAAAAAAAA5nEAAAAAAADncQAAAAAAAAAAAADncQAAAAAAAOhxAAAAAAAAAAAAAOhxAAAAAAAA6XEAAAAAAAAAAAAA6XEAAAAAAADqcQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4nEAAAAAAADicQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					207,
+					1,
+					"insert",
+					{
+						"characters": " float"
+					},
+					"BgAAAJ9xAAAAAAAAoHEAAAAAAAAAAAAAoHEAAAAAAAChcQAAAAAAAAAAAAChcQAAAAAAAKJxAAAAAAAAAAAAAKJxAAAAAAAAo3EAAAAAAAAAAAAAo3EAAAAAAACkcQAAAAAAAAAAAACkcQAAAAAAAKVxAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAn3EAAAAAAACfcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					208,
+					1,
+					"insert",
+					{
+						"characters": ":righ"
+					},
+					"BQAAAKVxAAAAAAAApnEAAAAAAAAAAAAApnEAAAAAAACncQAAAAAAAAAAAACncQAAAAAAAKhxAAAAAAAAAAAAAKhxAAAAAAAAqXEAAAAAAAAAAAAAqXEAAAAAAACqcQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApXEAAAAAAAClcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					209,
+					10,
+					"left_delete",
+					null,
+					"CgAAAKlxAAAAAAAAqXEAAAAAAAABAAAAaKhxAAAAAAAAqHEAAAAAAAABAAAAZ6dxAAAAAAAAp3EAAAAAAAABAAAAaaZxAAAAAAAApnEAAAAAAAABAAAAcqVxAAAAAAAApXEAAAAAAAABAAAAOqRxAAAAAAAApHEAAAAAAAABAAAAdKNxAAAAAAAAo3EAAAAAAAABAAAAYaJxAAAAAAAAonEAAAAAAAABAAAAb6FxAAAAAAAAoXEAAAAAAAABAAAAbKBxAAAAAAAAoHEAAAAAAAABAAAAZg",
+					"AQAAAAAAAAABAAAAqnEAAAAAAACqcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					210,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJ9xAAAAAAAAn3EAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAoHEAAAAAAACgcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					219,
+					1,
+					"paste",
+					null,
+					"AQAAAKBxAAAAAAAA8HEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoHEAAAAAAACgcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					222,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKBxAAAAAAAAoXEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoHEAAAAAAACgcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					229,
+					1,
+					"left_delete",
+					null,
+					"AQAAALZxAAAAAAAAtnEAAAAAAAAnAAAAbWFyZ2luLWxlZnQ6IDE1cHg7IG1hcmdpbi1ib3R0b206IDEwcHg7",
+					"AQAAAAAAAAABAAAA3XEAAAAAAAC2cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					232,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAAP9xAAAAAAAAAHIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/3EAAAAAAAD/cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					233,
+					1,
+					"left_delete",
+					null,
+					"AQAAAP9xAAAAAAAA/3EAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAAHIAAAAAAAAAcgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					235,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAAAByAAAAAAAAAXIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAHIAAAAAAAAAcgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					243,
+					1,
+					"cut",
+					null,
+					"AQAAAB5yAAAAAAAAHnIAAAAAAAAVAAAAICAgICAgICAgICAgIAk8cD48L3A+",
+					"AQAAAAAAAAABAAAAM3IAAAAAAAAecgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					246,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAHlxAAAAAAAAenEAAAAAAAAAAAAAenEAAAAAAACKcQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeXEAAAAAAAB5cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					247,
+					1,
+					"paste",
+					null,
+					"AQAAAIpxAAAAAAAAoXEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAinEAAAAAAACKcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					250,
+					4,
+					"left_delete",
+					null,
+					"BAAAAJZxAAAAAAAAlnEAAAAAAAAEAAAAICAgIJJxAAAAAAAAknEAAAAAAAAEAAAAICAgII5xAAAAAAAAjnEAAAAAAAAEAAAAICAgIIpxAAAAAAAAinEAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAAmnEAAAAAAACacQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					253,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAEtxAAAAAAAATHEAAAAAAAAAAAAATHEAAAAAAABccQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAS3EAAAAAAABLcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					255,
+					1,
+					"paste",
+					null,
+					"AQAAAExxAAAAAAAATXQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATHEAAAAAAABMcQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					261,
+					1,
+					"paste",
+					null,
+					"AQAAAI1zAAAAAAAAoXMAAAAAAAAkAAAAMS4gVmlhamUgcG9yIElybGFuZGEuIFZpc2l0YXIgRHVibGlu",
+					"AQAAAAAAAAABAAAAjXMAAAAAAACxcwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					264,
+					1,
+					"paste",
+					null,
+					"AQAAAN5zAAAAAAAA8nMAAAAAAAAkAAAAMS4gVmlhamUgcG9yIElybGFuZGEuIFZpc2l0YXIgRHVibGlu",
+					"AQAAAAAAAAABAAAAAnQAAAAAAADecwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					271,
+					2,
+					"left_delete",
+					null,
+					"AgAAAD50AAAAAAAAPnQAAAAAAAAtAAAAICAgICAgICAgICAgICAgIDxoMT5WaWFqYW5kbyBwb3IgSXJsYW5kYTwvaDE+PXQAAAAAAAA9dAAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAa3QAAAAAAAA+dAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					276,
+					1,
+					"right_delete",
+					null,
+					"AQAAAPZzAAAAAAAA9nMAAAAAAAAgAAAAPGVtPjQgYWwgMTIgZGUgbWF5byBkZSAyMDI0PC9lbT4",
+					"AQAAAAAAAAABAAAAFnQAAAAAAAD2cwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "viajes/europa/viajes_europa_es.html",
+			"file_size": 45046,
+			"file_write_time": 134391696833458652,
+			"settings":
+			{
+				"buffer_size": 44446,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "irlanda"
+					},
+					"BwAAANl2AAAAAAAA2nYAAAAAAAAGAAAAaWJlcmlh2nYAAAAAAADbdgAAAAAAAAAAAADbdgAAAAAAANx2AAAAAAAAAAAAANx2AAAAAAAA3XYAAAAAAAAAAAAA3XYAAAAAAADedgAAAAAAAAAAAADedgAAAAAAAN92AAAAAAAAAAAAAN92AAAAAAAA4HYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2XYAAAAAAADfdgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "europa"
+					},
+					"BgAAANl2AAAAAAAA2nYAAAAAAAAHAAAAaXJsYW5kYdp2AAAAAAAA23YAAAAAAAAAAAAA23YAAAAAAADcdgAAAAAAAAAAAADcdgAAAAAAAN12AAAAAAAAAAAAAN12AAAAAAAA3nYAAAAAAAAAAAAA3nYAAAAAAADfdgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2XYAAAAAAADgdgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					2,
+					"left_delete",
+					null,
+					"AgAAAJJxAAAAAAAAknEAAAAAAAAYAAAAICAgICAgICAgICAgICAgIDxicj48YnI+kXEAAAAAAACRcQAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAqnEAAAAAAACScQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "viajes/europa/viajes1_3_irlanda_es.html",
+			"file_size": 67014,
+			"file_write_time": 134391701655617806,
+			"settings":
+			{
+				"buffer_size": 66166,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					8,
+					1,
+					"paste",
+					null,
+					"AQAAAGtxAAAAAAAAbnEAAAAAAAADAAAAbTIy",
+					"AQAAAAAAAAABAAAAa3EAAAAAAABucQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"paste",
+					null,
+					"AQAAAF1xAAAAAAAAYHEAAAAAAAADAAAAbTIy",
+					"AQAAAAAAAAABAAAAXXEAAAAAAABgcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "irlanda"
+					},
+					"BwAAAFBxAAAAAAAAUXEAAAAAAAAHAAAAZXNwYcOxYVFxAAAAAAAAUnEAAAAAAAAAAAAAUnEAAAAAAABTcQAAAAAAAAAAAABTcQAAAAAAAFRxAAAAAAAAAAAAAFRxAAAAAAAAVXEAAAAAAAAAAAAAVXEAAAAAAABWcQAAAAAAAAAAAABWcQAAAAAAAFdxAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUHEAAAAAAABWcQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "viajes/europa/viajes1_2_irlanda_es.html",
+			"file_size": 54158,
+			"file_write_time": 134391701905896475,
+			"settings":
+			{
+				"buffer_size": 53463,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AQAAAKpxAAAAAAAArXEAAAAAAAADAAAAbTIy",
+					"AQAAAAAAAAABAAAAqnEAAAAAAACtcQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"paste",
+					null,
+					"AQAAALhxAAAAAAAAu3EAAAAAAAADAAAAbTIy",
+					"AQAAAAAAAAABAAAAuHEAAAAAAAC7cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "irlanda"
+					},
+					"BwAAAJ1xAAAAAAAAnnEAAAAAAAAHAAAAZXNwYcOxYZ5xAAAAAAAAn3EAAAAAAAAAAAAAn3EAAAAAAACgcQAAAAAAAAAAAACgcQAAAAAAAKFxAAAAAAAAAAAAAKFxAAAAAAAAonEAAAAAAAAAAAAAonEAAAAAAACjcQAAAAAAAAAAAACjcQAAAAAAAKRxAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnXEAAAAAAACjcQAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -173,13 +1004,58 @@
 	"expanded_folders":
 	[
 		"/G/Documentos/diarioingeniero",
-		"/G/Documentos/diarioingeniero/blog",
+		"/G/Documentos/diarioingeniero/lm_brianda_20",
 		"/G/Documentos/diarioingeniero/viajes",
 		"/G/Documentos/diarioingeniero/viajes/europa",
 		"/G/Documentos/diarioingeniero/viajes/iberia"
 	],
 	"file_history":
 	[
+		"/G/Documentos/diarioingeniero/viajes/europa/viajes1_5_irlanda_es.html",
+		"/G/Documentos/diarioingeniero/viajes/europa/viajes1_4_irlanda_es.html",
+		"/G/Documentos/diarioingeniero/viajes/europa/viajes1_1_irlanda_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes36_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes32_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes33_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes34_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes35_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes30_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_iberia_en.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes27_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_iberia_en.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes27_iberia_en.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_iberia_en.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes25_iberia_en.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes25_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes24_iberia_en.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes24_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes23_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes23_iberia_en.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes22_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes22_iberia_en.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes21_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/europa/viajes_irlanda_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes12_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/europa/viajes_europa_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes20_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes17_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/europa/viajes1_3_irlanda_es.html",
+		"/G/Documentos/diarioingeniero/viajes/europa/viajes1_2_irlanda_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_7_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_5_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_6_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_3_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_4_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes11_4_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes11_1_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes31_iberia_es.html",
+		"/C/Users/Sergio/AppData/Local/Temp/AI_28_2/ai17942547065.tmp/preview.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_5_iberia_es.html",
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes33_1_iberia_es.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes_iberia_en.html",
 		"/G/Documentos/diarioingeniero/blog/blog21_es_fp_lenguaje_marcas_en.html",
 		"/G/Documentos/diarioingeniero/blog/blog21_es_fp_lenguaje_marcas_es.html",
@@ -241,13 +1117,9 @@
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes9_iberia_es.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes9_iberia_en.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes9_5_iberia_en.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes_iberia_es.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes2_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes30_iberia_es.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes30_1_iberia_es.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes2_0_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_iberia_en.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_iberia_es.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes31_1_iberia_es.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes30_5_iberia_es.html",
 		"/C/Users/Sergio/AppData/Local/Temp/Save For Web AI/mapa30.tmp/mapa30.html",
@@ -264,54 +1136,13 @@
 		"/G/Documentos/diarioingeniero/blog_01_en.html",
 		"/E/DOCUMENTOS/Carrera Profesional/INSTITUTOS_DOCENCIA/2026-2027/ciber si/Tema 1 Introduccion/1.1 Intro/OT Cybersecurity for IT Professionals_ 5 Things OT Wants IT to Know _ Dragos.html",
 		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_1_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_iberia_en.html",
 		"/G/Documentos/diarioingeniero/aboutme_en.html",
 		"/G/Documentos/diarioingeniero/aboutme_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_8_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_9_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_2_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_3_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_4_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_6_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_5_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_7_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes25_4_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_2_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes10_3_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_1_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_5_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_3_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes29_4_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_1_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_4_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_6_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_7_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_5_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_2_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes28_3_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes25_3_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes6_1_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_8_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_7_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_6_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_5_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_4_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_3_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_2_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_1_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes18_0_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes17_7_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes17_8_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes17_6_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes17_5_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes17_4_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes17_3_iberia_es.html",
-		"/G/Documentos/diarioingeniero/viajes/iberia/viajes17_2_iberia_es.html"
+		"/G/Documentos/diarioingeniero/viajes/iberia/viajes26_8_iberia_es.html"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 63.4285714286
 	},
 	"find_in_files":
 	{
@@ -330,6 +1161,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			">\n",
+			"010103",
+			"Irlanda",
+			"blog",
+			"30",
+			"31",
 			"lm_brianda_2",
 			"lm_brianda_21/",
 			">                                                   ",
@@ -451,13 +1288,7 @@
 			".svg/127px",
 			".svg/180px",
 			".svg/93px",
-			".svg/129px",
-			".svg/173",
-			"svg/122px",
-			"carousel",
-			"margin",
-			"\"/>-->\n",
-			"                    <path class=\"st0\" d=\"M100.06,2.36c42.49,5.6,67.71,43.3,106.59,57.36,74.64,35.29-122.21,47.58-141.45,31.59C5.3,68.22,31.52-15,100.06,2.36ZM84.2,3.52C33.27-4.79,17.25,67.71,59.93,87.92c23.7,18.88,228.37,4.6,135.05-30.74C157.95,38.35,129.56.76,84.2,3.52Z\" stroke-width=\"0\"/>\n                    <path d=\"M32.06,51.36c5.24,43.97,46.78,39.61,79.01,50.99-51.34-2.26-91.44,18.01-79.01-50.99Z\" fill=\"#fff\" stroke-width=\"0\"/>\n                    <path d=\"M112.06,102.36c35.21-7.46,83.95-3.47,111.35-26.19,18.37,48.02-76.83,18.68-111.35,26.19Z\" fill=\"#fff\" stroke-width=\"0\"/>\n                    <path d=\"M67.06,2.36c-26.21,1.32-30.63,21.79-35,43C29.7,12.36,29.14-4.34,67.06,2.36Z\" fill=\"#fff\" stroke-width=\"0\"/>"
+			".svg/129px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -465,6 +1296,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"010105",
+			"33",
 			"../lm_brianda_2",
 			"../lm_brianda_21/",
 			"250px-",
@@ -590,9 +1423,7 @@
 			"blog/blog20_",
 			"blog/blog19_",
 			"blog/blog18_",
-			"blog/blog17_",
-			"blog/blog16_",
-			"eco/eco22_"
+			"blog/blog17_"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
@@ -609,20 +1440,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "viajes/iberia/viajes_iberia_es.html",
-					"selected": true,
+					"file": "viajes/europa/viajes_irlanda_es.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 89915,
+						"buffer_size": 45525,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								29686,
+								29686
 							]
 						],
 						"settings":
@@ -634,15 +1464,15 @@
 								{
 									"1":
 									[
-										14,
-										15
+										29684,
+										29685
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"Packages/BracketHighlighter/icons/tag.png",
 										"region.orangish"
 									]
 								},
@@ -650,8 +1480,8 @@
 								{
 									"1":
 									[
-										0,
-										1
+										29627,
+										29628
 									]
 								},
 								"unmatched":
@@ -721,7 +1551,368 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5576.0,
+						"translation.y": 5521.14285714,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "viajes/europa/viajes_europa_es.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29073,
+								29073
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										29071,
+										29072
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										29067,
+										29068
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5562.85714286,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "viajes/europa/viajes1_3_irlanda_es.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29015,
+								29015
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										29029,
+										29030
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										28988,
+										28989
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5705.14285714,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "viajes/europa/viajes1_2_irlanda_es.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29092,
+								29092
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										29106,
+										29107
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										29065,
+										29066
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5421.14285714,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -733,7 +1924,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 63.4285714286
 	},
 	"input":
 	{
@@ -819,7 +2010,7 @@
 	"project": "mi_web.sublime-project",
 	"replace":
 	{
-		"height": 68.5714285714
+		"height": 123.428571429
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -858,7 +2049,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 407.0,
+	"side_bar_width": 349.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
