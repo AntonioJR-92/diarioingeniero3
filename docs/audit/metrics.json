@@ -1,0 +1,458 @@
+{
+  "initial_audit": {
+    "version": 1,
+    "date": "2026-11-18",
+    "timezone": "Europe/Madrid",
+    "repository": "https://github.com/AntonioJR-92/diarioingeniero3",
+    "base_commit": "f3d76b4c49bbe53567a3c9f46cc7afcd90b4be5e",
+    "scope": {
+      "tracked_files_before": 15088,
+      "html_total": 1039,
+      "html_main": 850,
+      "html_additional": 189
+    },
+    "static_auditor": {
+      "identity": "code + file + URL (or detail); duplicate occurrences counted separately within each issue",
+      "before": {
+        "html_files": 850,
+        "css_files": 1,
+        "local_references": 88565,
+        "issues": 7413,
+        "errors": 5016,
+        "warnings": 2394,
+        "disabled_references": 3,
+        "active_issues": 7410,
+        "by_code": {
+          "duplicate_id": 589,
+          "duplicate_script": 1700,
+          "language_mismatch": 105,
+          "missing_file": 4985,
+          "missing_fragment": 34
+        }
+      },
+      "after": {
+        "html_files": 850,
+        "css_files": 1,
+        "local_references": 88255,
+        "issues": 681,
+        "errors": 540,
+        "warnings": 138,
+        "disabled_references": 3,
+        "active_issues": 678,
+        "by_code": {
+          "duplicate_id": 134,
+          "language_mismatch": 4,
+          "missing_file": 521,
+          "missing_fragment": 22
+        }
+      },
+      "active_issue_reduction": 6732,
+      "all_after": {
+        "html_files": 1039,
+        "css_files": 22,
+        "local_references": 91454,
+        "issues": 1444,
+        "errors": 1044,
+        "warnings": 397,
+        "disabled_references": 3
+      },
+      "additional_archive_issues": 763
+    },
+    "independent_link_inventory": {
+      "identity": "Each occurrence, including empty # references and SVG links; not the same unit as distinct auditor issues",
+      "before": {
+        "html_pages": 850,
+        "local_references": 115175,
+        "missing_references": 5804
+      },
+      "after": {
+        "html_pages": 850,
+        "local_references": 114884,
+        "missing_references": 595,
+        "missing_targets": 237,
+        "not_explicitly_disabled": 592,
+        "explicitly_disabled": 3,
+        "broken_fragments": 26,
+        "broken_fragment_targets": 22,
+        "parse_errors": []
+      },
+      "missing_reference_reduction": 5209,
+      "remaining_groups": [
+        {
+          "cause": "Fotografía o recurso de imagen ausente",
+          "references": 261,
+          "targets": 140,
+          "files": 125,
+          "attributes": {
+            "src": 166,
+            "style-url": 91,
+            "href": 4
+          },
+          "examples": [
+            {
+              "file": "blog/blog17_es_canarias_en.html",
+              "line": 215,
+              "url": "../imags/blog/blog17/canarias_expomotos.jpg",
+              "target": "imags/blog/blog17/canarias_expomotos.jpg",
+              "tag": "img",
+              "attr": "src"
+            },
+            {
+              "file": "blog/blog17_es_canarias_en.html",
+              "line": 140,
+              "url": "../imags/blog/blog17/canarias_elconfital.jpg",
+              "target": "imags/blog/blog17/canarias_elconfital.jpg",
+              "tag": "img",
+              "attr": "src"
+            },
+            {
+              "file": "blog/blog21_es_gu_filomena_en.html",
+              "line": 137,
+              "url": "../imags/blog/blog21/filomena/filomena_españa_8-10.jpg",
+              "target": "imags/blog/blog21/filomena/filomena_españa_8-10.jpg",
+              "tag": "img",
+              "attr": "src"
+            },
+            {
+              "file": "blog/blog22_es_burgos_01_es.html",
+              "line": 130,
+              "url": "../imags/blog/blog22/v01_Burgos/buitrago1_castillo.jpg",
+              "target": "imags/blog/blog22/v01_Burgos/buitrago1_castillo.jpg",
+              "tag": "img",
+              "attr": "src"
+            }
+          ]
+        },
+        {
+          "cause": "Enlace explícitamente deshabilitado",
+          "references": 3,
+          "targets": 3,
+          "files": 3,
+          "attributes": {
+            "href": 3
+          },
+          "examples": [
+            {
+              "file": "blog_11_en.html",
+              "line": 194,
+              "url": "blog/blog36_es_la_linea_en.html",
+              "target": "blog/blog36_es_la_linea_en.html",
+              "tag": "a",
+              "attr": "href"
+            },
+            {
+              "file": "blog_11_es.html",
+              "line": 194,
+              "url": "blog/blog36_es_la_linea_es.html",
+              "target": "blog/blog36_es_la_linea_es.html",
+              "tag": "a",
+              "attr": "href"
+            },
+            {
+              "file": "mis_sitios/gc/gc_main_en.html",
+              "line": 53,
+              "url": "ca_main_en.html",
+              "target": "mis_sitios/gc/ca_main_en.html",
+              "tag": "a",
+              "attr": "href"
+            }
+          ]
+        },
+        {
+          "cause": "Enlace provisional u otro recurso ausente",
+          "references": 15,
+          "targets": 5,
+          "files": 5,
+          "attributes": {
+            "href": 15
+          },
+          "examples": [
+            {
+              "file": "mis_sitios/gu/gu_provincia_en.html",
+              "line": 188,
+              "url": "señorio molina",
+              "target": "mis_sitios/gu/señorio molina",
+              "tag": "area",
+              "attr": "href"
+            },
+            {
+              "file": "mis_sitios/gu/gu_provincia_en.html",
+              "line": 178,
+              "url": "at",
+              "target": "mis_sitios/gu/at",
+              "tag": "area",
+              "attr": "href"
+            },
+            {
+              "file": "mis_sitios/gu/gu_provincia_en.html",
+              "line": 182,
+              "url": "atota",
+              "target": "mis_sitios/gu/atota",
+              "tag": "area",
+              "attr": "href"
+            },
+            {
+              "file": "viajes/iberia/viajes27_2_iberia_en.html",
+              "line": 629,
+              "url": "Alquézar",
+              "target": "viajes/iberia/Alquézar",
+              "tag": "a",
+              "attr": "href"
+            }
+          ]
+        },
+        {
+          "cause": "Mapa ausente",
+          "references": 198,
+          "targets": 58,
+          "files": 105,
+          "attributes": {
+            "src": 198
+          },
+          "examples": [
+            {
+              "file": "viajes/iberia/viajes24_1_iberia_en.html",
+              "line": 310,
+              "url": "../../imags/viajes/españa/v24/mapa_viajes24_1_alicante.jpg",
+              "target": "imags/viajes/españa/v24/mapa_viajes24_1_alicante.jpg",
+              "tag": "img",
+              "attr": "src"
+            },
+            {
+              "file": "viajes/iberia/viajes23_1_iberia_en.html",
+              "line": 310,
+              "url": "../../imags/viajes/españa/v23/mapa_viajes23_1_murcia.jpg",
+              "target": "imags/viajes/españa/v23/mapa_viajes23_1_murcia.jpg",
+              "tag": "img",
+              "attr": "src"
+            },
+            {
+              "file": "viajes/iberia/viajes29_1_iberia_en.html",
+              "line": 310,
+              "url": "../../imags/viajes/españa/v29/mapa_viajes29_1_valencia.jpg",
+              "target": "imags/viajes/españa/v29/mapa_viajes29_1_valencia.jpg",
+              "tag": "img",
+              "attr": "src"
+            },
+            {
+              "file": "viajes/iberia/viajes25_2_iberia_en.html",
+              "line": 310,
+              "url": "../../imags/viajes/españa/v25/mapa_viajes25_5_cuenca.jpg",
+              "target": "imags/viajes/españa/v25/mapa_viajes25_5_cuenca.jpg",
+              "tag": "img",
+              "attr": "src"
+            }
+          ]
+        },
+        {
+          "cause": "Capítulo de viaje no disponible",
+          "references": 118,
+          "targets": 31,
+          "files": 16,
+          "attributes": {
+            "xlink:href": 58,
+            "href": 60
+          },
+          "examples": [
+            {
+              "file": "viajes/iberia/viajes31_iberia_en.html",
+              "line": 320,
+              "url": "../../viajes/iberia/viajes31_4_iberia_es.html",
+              "target": "viajes/iberia/viajes31_4_iberia_es.html",
+              "tag": "a",
+              "attr": "xlink:href"
+            },
+            {
+              "file": "viajes/iberia/viajes31_iberia_en.html",
+              "line": 324,
+              "url": "../../viajes/iberia/viajes31_3_iberia_es.html",
+              "target": "viajes/iberia/viajes31_3_iberia_es.html",
+              "tag": "a",
+              "attr": "xlink:href"
+            },
+            {
+              "file": "viajes/iberia/viajes31_iberia_en.html",
+              "line": 328,
+              "url": "../../viajes/iberia/viajes31_2_iberia_es.html",
+              "target": "viajes/iberia/viajes31_2_iberia_es.html",
+              "tag": "a",
+              "attr": "xlink:href"
+            },
+            {
+              "file": "viajes/iberia/viajes31_iberia_en.html",
+              "line": 332,
+              "url": "../../viajes/iberia/viajes31_1_iberia_es.html",
+              "target": "viajes/iberia/viajes31_1_iberia_es.html",
+              "tag": "a",
+              "attr": "xlink:href"
+            }
+          ]
+        }
+      ],
+      "final_update_method": {
+        "manifest": "audit_dropdown_reload_manifest.json",
+        "references_fixed": 34,
+        "invalid_targets_removed": 5,
+        "method": "Parsed all 34 changed anchors in 33 files; confirmed dropdown attributes or reload class, absence of old tags, presence of new tags and current-file resolution; updated existing complete crawl by this verified delta."
+      }
+    },
+    "fix_verification": {
+      "url_edit_pairs": 4403,
+      "url_references": 5134,
+      "unique_local_targets": 906,
+      "contextual_edits": {
+        "audit_links_markup_manifest.json": 10,
+        "audit_pagination_fix_manifest.json": 17,
+        "audit_itinerary_fix_manifest.json": 7,
+        "audit_dropdown_reload_manifest.json": 34
+      },
+      "errors": [],
+      "dropdown_reload_validation": {
+        "anchors_checked": 34,
+        "files_checked": 33,
+        "dropdowns": 33,
+        "reloads": 1,
+        "errors": []
+      }
+    },
+    "main_javascript_syntax": {
+      "html_files": 850,
+      "local_scripts": 1,
+      "snippets": 17003,
+      "unique_snippets": 286,
+      "failures": []
+    },
+    "functional_checks": {
+      "pages": 7,
+      "passed": 7,
+      "navbar_panels": 9,
+      "offcanvas_panels": 7,
+      "carousels": 10,
+      "galleries": 1,
+      "cookie_notices": 7,
+      "uncaught_javascript_errors": 0
+    },
+    "text_preservation": {
+      "html_files_compared": 850,
+      "text_changed_files": 6,
+      "changes": [
+        {
+          "path": "eco/eco18_arcelor_es.html",
+          "changes": [
+            {
+              "change": "insert",
+              "old": "la empresa a mi modo de ver son buenas Análisis Fundamental ArcelorMittal ### 2014 2015 2016 2017 2018",
+              "new": "la empresa a mi modo de ver son buenas A continuación presento los datos de fundamentales que me parecen más importantes: Capitalización Beneficio Neto: Vuelta a la normalidad después de haber tenido dos años tan malos en 2014 y 2015 que a punto estuvieron de costar la quiebra a la empresa. EBDITA: En aumento, buen indicador del ritmo de crecimiento de la empresa. Deuda/Ebdita: Se mantiene estable, debido a que no se está haciendo esfuerzo en reducir deuda sino en aumentar beneficios. PER: Análisis Fundamental ArcelorMittal ### 2014 2015 2016 2017 2018"
+            }
+          ]
+        },
+        {
+          "path": "eco_02_en.html",
+          "changes": [
+            {
+              "change": "replace",
+              "old": "hands ... Leer más Previous Next Tweet to @diariodesergi 10 9 ... 3 2 (current) 1 You are informed that",
+              "new": "hands ... Leer más Previous Next Tweet to @diariodesergi 14 13 ... 3 2 (current) 1 You are informed that"
+            }
+          ]
+        },
+        {
+          "path": "eco_02_es.html",
+          "changes": [
+            {
+              "change": "replace",
+              "old": "los ... Leer más Previous Next Tweet to @diariodesergi 10 9 ... 3 2 (current) 1 Se le informa que",
+              "new": "los ... Leer más Previous Next Tweet to @diariodesergi 14 13 ... 3 2 (current) 1 Se le informa que"
+            }
+          ]
+        },
+        {
+          "path": "eco_04_en.html",
+          "changes": [
+            {
+              "change": "replace",
+              "old": "what ... Leer más Previous Next Tweet to @diariodesergi 10 9 ... 5 4 (current) 3 ... 1 You are",
+              "new": "what ... Leer más Previous Next Tweet to @diariodesergi 14 13 ... 5 4 (current) 3 ... 1 You are"
+            }
+          ]
+        },
+        {
+          "path": "eco_04_es.html",
+          "changes": [
+            {
+              "change": "replace",
+              "old": "que ... Leer más Previous Next Tweet to @diariodesergi 10 9 ... 5 4 (current) 3 ... 1 Se le",
+              "new": "que ... Leer más Previous Next Tweet to @diariodesergi 14 13 ... 5 4 (current) 3 ... 1 Se le"
+            }
+          ]
+        },
+        {
+          "path": "mis_sitios/gc/gc_gastronomia_en.html",
+          "changes": [
+            {
+              "change": "delete",
+              "old": "All Rights Reserved - Diseñada por Sergio López Martínez -->",
+              "new": "All Rights Reserved - Diseñada por Sergio López Martínez"
+            }
+          ]
+        }
+      ]
+    },
+    "unit_tests": {
+      "python": 15,
+      "node_cookie": 8,
+      "node_cookie_original_passed": 1,
+      "node_cookie_original_failed": 7
+    },
+    "sitemap": {
+      "before_entries": 236,
+      "before_distinct_entries": 213,
+      "before_duplicate_extra_entries": 23,
+      "before_missing_file_entries": 65,
+      "after_entries": 850,
+      "base_url": "http://www.diariodeuningeniero.com/"
+    },
+    "validation_limits": [
+      "Local execution only; remote GitHub Actions has not run",
+      "No exhaustive browser rendering, production host configuration, external availability or dependency vulnerability review"
+    ]
+  },
+  "final": {
+    "main": {
+      "html_files": 850,
+      "css_files": 1,
+      "local_references": 86796,
+      "issues": 0,
+      "errors": 0,
+      "warnings": 0,
+      "disabled_references": 0
+    },
+    "including_archives": {
+      "html_files": 1039,
+      "css_files": 26,
+      "local_references": 89970,
+      "issues": 341,
+      "errors": 132,
+      "warnings": 209,
+      "disabled_references": 0
+    },
+    "remaining_by_type": {
+      "duplicate_id": 162,
+      "duplicate_script": 46,
+      "language_mismatch": 1,
+      "missing_file": 122,
+      "missing_fragment": 10
+    }
+  },
+  "browser": {
+    "pages": 22,
+    "loads": 44,
+    "widths_px": [
+      320,
+      1366
+    ],
+    "http_200": 44,
+    "uncaught_javascript_errors": 0,
+    "max_horizontal_overflow_px": 0
+  }
+}

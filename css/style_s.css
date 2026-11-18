@@ -7,9 +7,6 @@ h1,h2,h3,h4 { margin-bottom: .5rem; display: block}
 
 
   /* Tables */
-table, tr, th, td,  { margin: 20px; padding: 20px;
-  border: 10px; border-collapse: collapse; border-spacing: 0; vertical-align: baseline; background: transparent;
-  font-family: verdana, sans-serif; font-size:100%;      }
 
 table       {  width:100%; }
 table .p    {  background-color:green;    }
@@ -31,7 +28,7 @@ thead, th { background-color: #ccc; }
 .mob_header_but   { height:50px;  top:10px; left:1%; position:fixed; z-index:6; }
 .blog_carousel    { max-height: 500px; margin-bottom:35px; margin-top:80px; top: 35px; } 
 .toledo_carouselh { max-height: 800px; max-width : 800px;  } 
-.toledo_carouselv { max-height: 800; max-width : 800px;  } 
+.toledo_carouselv { max-height: 800px; max-width : 800px;  }
 .blog_carousel_i  { max-height: 350px; max-width : 400px;  }
 .blog_carousel2   { width: 150px; margin-top:-50px; left:-20px; } 
 .blog_carousel2_i { max-height: 150px; max-width : 150px; } 
@@ -48,7 +45,7 @@ thead, th { background-color: #ccc; }
 .footer_fmt       { margin-top:90px; }  
 .footer_fmt_i     { margin-top:20px; }  
 .social_fmt       { position:fixed; height:60px; bottom: 0; right:60px; margin-bottom: 0; padding-top:20px; transition: height 0.3s linear 0s, padding 0.3s linear 0s; overflow:hidden; }                  
-.mob_add_h        { margin-bottom:200px; margin-top:10px; margin-left: :20px;}
+.mob_add_h        { margin-bottom:200px; margin-top:10px; margin-left: 20px;}
 
 .modal-body {
     max-width:  400px;
@@ -114,7 +111,7 @@ p.titulo_mv {font-style: initial;font-size:16pt; font-weight: bold; font-family:
   padding-top:30px;
 }
 .button_cards{
-    z-index=3;
+    z-index:3;
     position: absolute;
     text-align: center;
     bottom:5px; left:30%;
@@ -284,44 +281,91 @@ svg path:hover {
  * --------------------------------------------------
  */
 
-@media screen and (max-width: 767px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all .25s ease-out;
-    -o-transition: all .25s ease-out;
-    transition: all .25s ease-out;
+#inicial.row {
+  margin-inline: 0;
+}
+
+#inicial > .content_center {
+  min-width: 0;
+  margin-inline: 0;
+}
+
+#inicial .sidebar_lft {
+  margin-left: 0;
+}
+
+#inicial .sidebar_rgt .blog_carousel2 {
+  left: 0;
+  max-width: 100%;
+}
+
+#inicial .adsbygoogle,
+#inicial .content_center iframe {
+  max-width: 100%;
+}
+
+nav.pagination > .pagination {
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+#inicial img.central_l,
+#inicial img.central_map {
+  max-width: calc(100% - 20px);
+}
+
+.contact-details {
+  text-align: start;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) {
+  .navbar [data-toggle="offcanvas"] {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #inicial .sidebar-offcanvas {
+    display: none !important;
   }
 
-  .row-offcanvas-left {
-    left: 0;
+  #inicial .sidebar-offcanvas.sidebar-open {
+    display: block !important;
+    position: fixed;
+    inset: var(--sidebar-top, 7rem) auto 0 0;
+    z-index: 1020;
+    width: min(20rem, 100%);
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem;
+    overflow: auto;
+    background: #fff;
+    box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.25);
   }
 
-/*  .sidebar-offcanvas {
-    right: -100%; !* 12 columns *!
-  }*/
-
-
-/*  .sidebar-offcanvas {
-    right: -50%; !* 6 columns *!
-  }*/
-
-  .sidebar-offcanvas {
-    left: -50%; /* 12 columns */
+  #inicial .d-lg-none:has(> .adsbygoogle) {
+    max-width: calc(100vw - 30px);
   }
 
-/*  .sidebar-offcanvas {
-    left: -50%; !* 6 columns *!
-  }*/
-
-
-  .row-offcanvas-left.active {
-    left: 50%; /* 6 columns */
+  #inicial table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
   }
 
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 100%; /* 6 columns */
+  .card_viajes > div:first-child:has(> .imags_cards_viajes),
+  .card_toledo > div:first-child:has(> .imags_cards) {
+    max-width: 100%;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  .imags_cards_viajes,
+  .imags_cards {
+    max-width: 100%;
+    object-fit: contain;
   }
 }
 /*
@@ -333,7 +377,6 @@ svg path:hover {
 }
 */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 footer { background-color:#0c1a1e; min-height:150px; font-family: 'Open Sans', sans-serif; }
 .footerleft { margin-top:20px; padding:0 36px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
@@ -394,11 +437,15 @@ footer { background-color:#0c1a1e; min-height:150px; font-family: 'Open Sans', s
 
     
     
-    #barracookies a:nth-child(2) {
-        padding:4px;
-        background:#4682B4;
-        border-radius:5px;
-        text-decoration:none;
+    #barracookies .cookie-notice-dismiss {
+        padding: 4px 9px;
+        border: 0;
+        border-radius: 5px;
+        background: #d4e6f3;
+        color: #102a43;
+        font: inherit;
+        font-weight: bold;
+        cursor: pointer;
     } 
     
     #barracookies a {
@@ -470,4 +517,46 @@ footer { background-color:#0c1a1e; min-height:150px; font-family: 'Open Sans', s
 -----------------------------------------*/
 .WgD-container img {
    max-height: 200px; /*altura maxima*/
+}
+/* Keep article captions and route labels readable when an archived asset is missing. */
+img[data-unavailable-src],
+svg[data-unavailable-map] {
+    display: none !important;
+}
+
+.missing-media {
+    background: #f3f5f5;
+    color: #37474f;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+[data-unavailable-href] {
+    cursor: default;
+    opacity: 0.8;
+}
+
+/* Nested navigation and card images */
+.dropdown-menu .dropdown-menu.submenu-open {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .navbar.fixed-top .navbar-collapse.show {
+    max-height: calc(100vh - 7rem);
+    max-height: calc(100dvh - 7rem);
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  #inicial .content_cards > .card {
+    max-width: calc(100% - 10px) !important;
+  }
+
+  #inicial .content_cards .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
 }

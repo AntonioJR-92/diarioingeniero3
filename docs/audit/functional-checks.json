@@ -1,0 +1,17 @@
+{
+  "browser": "Chromium",
+  "page_loads": 44,
+  "widths_px": [
+    320,
+    1366
+  ],
+  "pages": 22,
+  "http_200": 44,
+  "cookie_dismissals": 44,
+  "mobile_menus_after_fixes": 22,
+  "cover_language_switch_cases": 12,
+  "toledo_map_keyboard_cases": 4,
+  "gallery_modal": "opened and closed",
+  "wikiloc": "HTTP 403 in a desktop check",
+  "test_conditions": "Advertising and analytics requests were blocked. Contact links were inspected without sending email."
+}
