@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "scope": "main",
+  "summary": {
+    "html_files": 850,
+    "css_files": 1,
+    "local_references": 87785,
+    "issues": 0,
+    "errors": 0,
+    "warnings": 0,
+    "disabled_references": 0
+  },
+  "issues": []
+}

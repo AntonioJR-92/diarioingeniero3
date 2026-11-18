@@ -35,7 +35,7 @@
 	color: white;
 	height: auto;
 	}
-#pie-footer {
+.pie-footer {
 	background-color: #3B5162;
 	width: 100%;
 	height: auto;
@@ -250,7 +250,7 @@ input {
 	text-align: center;
 
 }
-#Border {
+.borde-imagen {
 	border-radius: 20px;
 }
   .carousel-inner img  {
@@ -341,19 +341,19 @@ input {
       background: gray; 
       color: black; 
     }
-      #miBoton-4 { 
+      .mi-boton-4 { 
       padding: 1px; 
       background: light-gray; 
       color: black; 
     } 
-    #miBoton-4:hover { 
+    .mi-boton-4:hover { 
       padding: 1px; 
       background:#B2D5D9; 
       color: black; 
       font-family: Comic Sans MS;
       border-radius: 100px;
     } 
-    #miBoton-4:active { 
+    .mi-boton-4:active { 
       padding: 0,5px; 
       background: gray; 
       color: black; 

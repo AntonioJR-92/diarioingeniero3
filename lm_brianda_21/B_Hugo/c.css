@@ -395,7 +395,7 @@ margin-left: 20px;
    margin-right: 0pt;
    margin-bottom: 2px;
    margin-left: 0pt;
-   background-image: url(fondo_gris.gif);
+   background-color: #eee; /* Original pendiente de recuperar: fondo_gris.gif */
 
 }
 

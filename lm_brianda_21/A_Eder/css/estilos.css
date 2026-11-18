@@ -59,7 +59,7 @@ body{
 
 .parallax-quienes {
     height: 600px;
-    background-image: url('../img/biblaop.JPG');
+    background-image: url("../img/biblaop.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ body{
 
 .parallax-contact {
     height: 600px;
-    background-image: url('../img/csatro.gif');
+    background-image: url('../img/castro.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

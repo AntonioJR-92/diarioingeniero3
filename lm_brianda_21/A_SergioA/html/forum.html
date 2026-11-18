@@ -38,7 +38,7 @@
 <!--Barra de navegación superior-->
 <nav class="navbar  bg-dark navbar-dark fixed-top">
   <a class="navbar-brand barra1" href="Index.html">
-    <img class="gu" src="../IMAGS_ASERGIOA/escudoGu.png" alt="logo"> Inicio</a>
+    <img class="gu" src="../IMAGS_ASERGIOA/EscudoGu.png" alt="logo"> Inicio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -107,7 +107,10 @@
   <h1>Formulario de contacto</h1>
   <h4>Rellena tus datos para obtener tu oferta personalizada:</h4>
 
-  <form action="/action_page.php">
+  <form autocomplete="off" aria-describedby="archivo-demo-nota">
+  <p id="archivo-demo-nota">Formulario de demostración. Usa solo datos ficticios.</p>
+  <noscript><p>Activa JavaScript para probar el formulario.</p></noscript>
+  <fieldset data-demo-fields disabled style="margin:0;padding:0;border:0;min-width:0">
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text">Sr/Sra</span>
@@ -143,8 +146,24 @@
     </div>
   <br>
   <br>
-    <button type="submit" href="forum.html" class="btn btn-primary">Recibir oferta</button>
-  </form>
+    <button type="submit" class="btn btn-primary">Recibir oferta</button>
+  
+  </fieldset>
+  <p data-demo-status role="status" aria-live="polite"></p>
+</form>
+<script>
+(function () {
+  const form = document.currentScript.previousElementSibling;
+  const fields = form.querySelector('[data-demo-fields]');
+  const status = form.querySelector('[data-demo-status]');
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    form.reset();
+    status.textContent = 'Demostración completada en esta página.';
+  });
+  fields.disabled = false;
+})();
+</script>
 </div>
 
 </body>

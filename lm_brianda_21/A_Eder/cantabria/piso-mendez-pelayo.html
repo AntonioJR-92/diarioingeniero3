@@ -14,7 +14,7 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="manifest" href="../site.webmanifest">
     <link rel="apple-touch-icon" href="../icon.png">
     <!-- Place favicon.ico in the root directory -->
 
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="..//css/pisos.css">
     <link rel="stylesheet" href="..//css/estilos.css">
     <link rel="stylesheet" href="..//css/main.css">
-    <link href="../sandbox.css" rel="stylesheet">
+    <!-- Original pendiente de recuperar «../sandbox.css» -->
     <link href="..//css/animsition.min.css" rel="stylesheet">
     <link rel="stylesheet" href="..//css/video-js.css">
   	<script src="../js/video.js"></script>
@@ -34,15 +34,10 @@
     <meta name="theme-color" content="#fafafa">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -79,7 +74,6 @@
 
 		</script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
     <script src="../js/animsition.min.js" charset="utf-8"></script>
     <script>
     $(document).ready(function() {
@@ -145,9 +139,7 @@
 
       <main>
     		<div class="contenedor">
-    			<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
-    				<source src="vid/piso-calle-voluntariado.mp4" type="video/mp4">
-    			</video>
+    			<p data-unavailable-src="vid/piso-calle-voluntariado.mp4">Vídeo no disponible en el archivo.</p>
         </br></br></br>
 
         <div class="jumbotron jumbotron-fluid precio">
@@ -157,7 +149,7 @@
 
 
         <div class="row">
-          <div class="col-lg-6col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-6 col-sm-12 col-xs-12">
+          <div class="col-lg-6 col-sm-12 col-xs-12">
           <table class="table">
             <thead>
               <tr>
@@ -185,7 +177,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col-lg-6col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-6 col-sm-12 col-xs-12 tabla-abajo">
+        <div class="col-lg-6 col-sm-12 col-xs-12 tabla-abajo">
         <table class="table">
           <thead>
             <tr>
@@ -254,9 +246,10 @@
 
 
     	<script>
-    		var reproductor = videojs('fm-video', {
-    			fluid: true
-    		});
+    		const video = document.getElementById('fm-video');
+    		if (video && video.tagName === 'VIDEO' && typeof videojs === 'function') {
+    			videojs(video, { fluid: true });
+    		}
     	</script>
 
 
@@ -264,9 +257,9 @@
       <!--/content-->
 
 
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
@@ -287,26 +280,26 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-12col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-6 d-none d-lg-block">
+        <div class="col-sm-12 d-none d-lg-block">
           <h6>Sobre nosotros</h6>
           <p class="text-justify">Somos una empresa joven y dinámica que se adecúa a los nuevos tiempos, ofreciendo a sus clientes el mejor servicio.<br />
             El elevado índice de satisfacción de nuestros clientes corrobora la eficacia de nuestros procedimientos.<br />
             Nos caracteriza la seriedad, el respeto y la honradez.</p>
         </div>
 
-        <div class="col-6col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-3">
+        <div class="col-6">
           <h6>Localidad</h6>
           <ul class="footer-links ">
-            <li><a href="cantabria.html" class="animsition-link">Cantabria</a></li>
-            <li><a href="bizkaia.html" class="animsition-link">Bizkaia</a></li>
+            <li><a href="../cantabria.html" class="animsition-link">Cantabria</a></li>
+            <li><a href="../bizkaia.html" class="animsition-link">Bizkaia</a></li>
           </ul>
         </div>
 
-        <div class="col-6col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-3">
+        <div class="col-6">
           <h6>Acceso rápido</h6>
           <ul class="footer-links">
-            <li><a href="sobrenosotros.html">Quiénes somos</a></li>
-            <li><a href="contact.html">Contáctanos</a></li>
+            <li><a href="../sobrenosotros.html">Quiénes somos</a></li>
+            <li><a href="../contact.html">Contáctanos</a></li>
           </ul>
         </div>
       </div>
@@ -314,13 +307,13 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="            <div class="col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-8 col-sm-6 col-12">
+        <div class="col-md-8 col-sm-6 col-12">
           <p class="copyright-text">Copyright © 2020 All Rights Reserved by
             <a href="#">Bilbolar</a>.
           </p>
         </div>
 
-        <div class="            <div class="col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-4 col-sm-6 col-12">
+        <div class="col-md-4 col-sm-6 col-12">
           <ul class="social-icons">
             <li><a href="https://wa.me/34670297539" class="animsition-link"><img src="../img/whatsapp.png" alt="" width="32" height="32" title="whatsapp"></a></li>
             <li><a href="tg://resolve?domain=bilbolar" class="animsition-link"><img src="../img/telegram.png" alt="telegram" width="35" height="32" title="telegram"></a></li>

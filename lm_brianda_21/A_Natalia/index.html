@@ -21,11 +21,11 @@
 
 
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0//css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0//css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0//css/font-awesome.min.css">
 
 
@@ -158,7 +158,7 @@
 
 
 
-  <div class="col-lg-3col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-2 col-sm-0 d-none d-lg-block" >
+  <div class="col-lg-3 col-sm-0 d-none d-lg-block" >
 
                <br>
 
@@ -232,7 +232,7 @@
 </div>
 
 
-<div class="col-lg-6col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-8 col-sm-1md" style="background:#F5EBDC;" >
+<div class="col-lg-6 col-sm-12" style="background:#F5EBDC;" >
 
 <p style="padding:40px; font-size:15px; color:#5A1E08 ;">En esta página encontrarás información sobre perros.
 Descubre las distintas razas, los distintos deportes caninos y hasta como interacionar con tu perro <br>
@@ -254,7 +254,7 @@ Sociabiliza a tu pero, pero cuidado, no hace falta que lo juntes con todos los p
 
 
 
-<div class="col-lg-3col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-2 col-sm-0 d-none d-sm-block  ">
+<div class="col-lg-3 col-sm-0 d-none d-sm-block">
 	
 
  <div id="accordion">
@@ -363,8 +363,10 @@ Sociabiliza a tu pero, pero cuidado, no hace falta que lo juntes con todos los p
 
 <div style="background:#F6F5EC; width: 100%;">
 
-<form action="/action_page.php" style="padding: 10px;">
-
+<form style="padding: 10px;" autocomplete="off" aria-describedby="archivo-demo-nota">
+  <p id="archivo-demo-nota">Formulario de demostración. Usa solo datos ficticios.</p>
+  <noscript><p>Activa JavaScript para probar el formulario.</p></noscript>
+  <fieldset data-demo-fields disabled style="margin:0;padding:0;border:0;min-width:0">
 <h4>¿Sabes la diferencia entre un perro de trabajo y de belleza?</h4>
 
  <div class="form-check"> <!--abre cuestionario-->
@@ -400,8 +402,22 @@ Sociabiliza a tu pero, pero cuidado, no hace falta que lo juntes con todos los p
 <br>
 
 <button type="submit" class="btn btn-secondary">OK</button>
-
+  </fieldset>
+  <p data-demo-status role="status" aria-live="polite"></p>
 </form>
+<script>
+(function () {
+  const form = document.currentScript.previousElementSibling;
+  const fields = form.querySelector('[data-demo-fields]');
+  const status = form.querySelector('[data-demo-status]');
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    form.reset();
+    status.textContent = 'Demostración completada en esta página.';
+  });
+  fields.disabled = false;
+})();
+</script>
 
 </div>
 

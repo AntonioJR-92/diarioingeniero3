@@ -8,14 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0//css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
  <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <style>
     div.barra_izqda{height: 400px;background-color: blue}
@@ -29,7 +23,7 @@
 </head>
 <body background="IMAGS/FONDO.PNG">
 <div align="center"> 
-  <img style="height:200px; width:1600px; " src="IMAGS/BANER2.jpg"> 
+  <img class="img-fluid" src="IMAGS/BANER2.jpg" width="1600" height="200" alt="League of Legends"> 
   </div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
@@ -56,10 +50,10 @@
   </ul>
 </nav>
 <div class="row">
-    <div class="col-lg-2col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-3 d-none d-lg-block" style="background-color:transparent; height: 600px;">
-      <img src="IMAGS/WORLD.jpg" alt="WORLDS 2020" width="260" height="500">
+    <div class="col-lg-2 d-none d-lg-block" style="background-color:transparent; height: 600px;">
+      <img src="WORLD.jpg" alt="WORLDS 2020" width="260" height="500">
     </div>
-    <div class="col-lg-8col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-9 col col-lg-2" style="background-color:transparent;height: 600px;">
+    <div class="col-lg-8 col-12" style="background-color:transparent;height: 600px;">
       <div id="demo" class="carousel slide" data-ride="carousel">
 
 
@@ -70,22 +64,22 @@
   
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="IMAGS/l.jpg" alt="LEAGUE OF LEGENDS" width="990" height="500">
+      <img class="d-block img-fluid" src="IMAGS/l.jpg" alt="LEAGUE OF LEGENDS" width="990" height="500">
     </div>
     <div class="carousel-item">
-      <img src="IMAGS/RU.jpg" alt="RUNAS" width="990" height="500">
+      <img class="d-block img-fluid" src="IMAGS/RU.jpg" alt="RUNAS" width="990" height="500">
     </div>
   </div>
   
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <a class="carousel-control-prev" href="#demo" data-slide="prev" aria-label="Anterior">
     <span class="carousel-control-prev-icon"></span>
   </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
+  <a class="carousel-control-next" href="#demo" data-slide="next" aria-label="Siguiente">
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
     </div>
-    <div class="col-lg-2col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-1 d-none d-lg-block" style="background-color:transparent;height: 500px;">
+    <div class="col-lg-2 d-none d-lg-block" style="background-color:transparent;height: 500px;">
 <div class="col-sm-12 text-center mb-4">
    </div>
     </div>
@@ -95,11 +89,11 @@
 
   <div class="jumbotron">
   <h1 class="display-4">LEAGUE OF LEGENDS OFFICIAL SITES</h1>
-  <a href="https://www.facebook.com/leagueoflegends"target="_blank"><img style="height:30px; width:30px;" src="IMAGS/FACE.png"></a>
+  <a href="https://www.facebook.com/leagueoflegends"target="_blank"><img style="height:30px; width:30px;" src="FACE.png"></a>
 
-  <a href="https://www.instagram.com/lol_es/?hl=es"target="_blank"><img style="height:30px; width:30px;" src="IMAGS/INSTA.png"></a>
+  <a href="https://www.instagram.com/lol_es/?hl=es"target="_blank"><img style="height:30px; width:30px;" src="INSTA.png"></a>
   
-  <a href="https://twitter.com/lol_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank"><img style="height:30px; width:30px;" src="IMAGS/TW.png"></a>
+  <a href="https://twitter.com/lol_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank"><img style="height:30px; width:30px;" src="TW.png"></a>
   
 
 </div>

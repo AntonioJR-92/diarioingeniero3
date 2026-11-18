@@ -61,7 +61,7 @@
 <div class="row">
   <div class="col-lg-2" style="border-right-width: 2px; border-right-color: black;"></div>
   <div class="row">
-  <div class="col-lg-12" style="background-color: #A6E1E3;"><div class="col-lg-8"><blockquote><form class="form-horizontal" action="/action_page.php" style="background-color:#5F5D5D; 
+  <div class="col-lg-12" style="background-color: #A6E1E3;"><div class="col-lg-8"><blockquote><form class="form-horizontal" style="background-color:#5F5D5D; 
   border-top-style: solid;
   border-top-color: #E1E054;
   border-top-width: 2px;
@@ -73,7 +73,10 @@
   border-left-width: 2.5px;
   border-bottom-style: solid;
   border-bottom-color: #E1E054;
-  border-bottom-width: 2.5px; ">
+  border-bottom-width: 2.5px; " autocomplete="off" aria-describedby="archivo-demo-nota">
+  <p id="archivo-demo-nota">Formulario de demostración. Usa solo datos ficticios.</p>
+  <noscript><p>Activa JavaScript para probar el formulario.</p></noscript>
+  <fieldset data-demo-fields disabled style="margin:0;padding:0;border:0;min-width:0">
   <div class="form-group">
     <label class="control-label col-sm-2" for="email" style="color: yellow;">Email:</label>
     <div class="col-sm-10">
@@ -83,7 +86,7 @@
   <div class="form-group">
     <label class="control-label col-sm-2" for="pwd" style="color: yellow;">Password:</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" autocomplete="new-password">
     </div>
   </div>
   <div class="form-group">
@@ -98,7 +101,22 @@
       <button type="submit" class="btn btn-default" style="background-color: #E32507;">Submit</button>
     </div>
   </div>
-</form></blockquote></div>
+  </fieldset>
+  <p data-demo-status role="status" aria-live="polite"></p>
+</form>
+<script>
+(function () {
+  const form = document.currentScript.previousElementSibling;
+  const fields = form.querySelector('[data-demo-fields]');
+  const status = form.querySelector('[data-demo-status]');
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    form.reset();
+    status.textContent = 'Demostración completada en esta página.';
+  });
+  fields.disabled = false;
+})();
+</script></blockquote></div>
 <div class="container">
     <table class="table table-dark table-hover">
     <thead>
@@ -127,7 +145,7 @@
     </tbody>
   </table>
 </div>
-<div class="col-lg-12col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar"> 12 col-sm-0">
+<div class="col-lg-12 col-sm-0">
   <footer>
 <div class="rounded-lg" style="background-color: #4A5E60; color: white; text-align: center;  width: 100%" > COPYRIGHT ÁLVARO 2020/2021</div>
       </div>
