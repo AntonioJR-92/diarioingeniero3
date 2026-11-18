@@ -24,8 +24,8 @@ jobs:
       - name: Test cookie behaviour
         run: node --test tests/cookies.test.js
       - name: Check active JavaScript syntax
-        run: python3 tools/check_javascript.py
+        run: python3 tools/check_javascript.py --include-archives
       - name: Check local references against documented pending issues
-        run: python3 tools/audit_site.py --baseline docs/audit/known-issues.json
+        run: python3 tools/audit_site.py --include-archives --baseline docs/audit/archive-issues.json
       - name: Check generated sitemap
         run: python3 tools/generate_sitemap.py --check

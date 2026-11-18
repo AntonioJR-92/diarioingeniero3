@@ -22,6 +22,9 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 
 ORIGIN = "https://audit.invalid"
+PUBLISHED_HOST = "antoniojr-92.github.io"
+PUBLISHED_PREFIX = "/diarioingeniero3"
+WIKIMEDIA_THUMBNAIL_WIDTHS = {20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840}
 MAIN_DIRS = {"blog", "eco", "emprender", "mis_sitios", "viajes"}
 VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input",
              "link", "meta", "param", "source", "track", "wbr"}
@@ -45,13 +48,20 @@ def resolve_local(source: str, url: str, base_url: str | None = None):
     parsed = urlsplit(cleaned)
     if parsed.scheme.lower() in SKIP_SCHEMES:
         return None
-    if parsed.scheme or parsed.netloc:
-        if parsed.hostname != "audit.invalid" or parsed.scheme not in {"http", "https", ""}:
-            return None
-    absolute = urlsplit(urljoin(base_url or f"{ORIGIN}/{source}", cleaned))
-    if absolute.hostname != "audit.invalid":
+    if parsed.scheme not in {"http", "https", ""}:
         return None
+    absolute = urlsplit(urljoin(base_url or f"{ORIGIN}/{source}", cleaned))
     decoded = unquote(absolute.path).replace("\\", "/")
+    if absolute.hostname == PUBLISHED_HOST:
+        # GitHub Pages serves this repository beneath its project path.
+        if decoded == PUBLISHED_PREFIX:
+            decoded = "/"
+        elif decoded.startswith(PUBLISHED_PREFIX + "/"):
+            decoded = decoded[len(PUBLISHED_PREFIX):]
+        else:
+            return None
+    elif absolute.hostname not in {"audit.invalid", "diarioingeniero"}:
+        return None
     path = posixpath.normpath("/" + decoded.lstrip("/" )).lstrip("/")
     if decoded.endswith("/"):
         path = (path + "/" if path else "") + "index.html"
@@ -197,7 +207,12 @@ class Page(HTMLParser):
         if tag == "base" and attributes.get("href") and not self._base_seen:
             self.base_url = urljoin(self.base_url, attributes["href"])
             self._base_seen = True
-        for attribute in ("href", "xlink:href", "src", "poster"):
+        url_attributes = ("href", "xlink:href", "src", "poster")
+        if tag == "form":
+            url_attributes += ("action",)
+        if tag in {"button", "input"}:
+            url_attributes += ("formaction",)
+        for attribute in url_attributes:
             value = attributes.get(attribute)
             if value is None or tag == "base":
                 continue
@@ -239,7 +254,8 @@ class Page(HTMLParser):
 def site_html_files(root: Path, include_archives: bool = False):
     for path in sorted(root.rglob("*")):
         relative = path.relative_to(root)
-        if ".git" in relative.parts or not path.is_file() or path.suffix.lower() != ".html":
+        if ({".git", "_vti_cnf"}.intersection(relative.parts) or not path.is_file()
+                or path.suffix.lower() != ".html"):
             continue
         if include_archives or len(relative.parts) == 1 or relative.parts[0] in MAIN_DIRS:
             yield path
@@ -281,7 +297,18 @@ def audit(root: Path, include_archives: bool = False) -> dict:
 
     def check_reference(source, reference, base_url=None):
         nonlocal references_checked
+        if re.match(r"^(?:file:|[a-z]:[/\\])", reference.url.strip(), re.I):
+            add("local_machine_url", source, reference.line, "URL points to a local computer",
+                url=reference.url, category="disabled" if reference.disabled else "error",
+                kind=reference.kind)
+            return
         try:
+            external = urlsplit(reference.url)
+            if external.hostname in {"upload.wikimedia.org", "thumb.wikimedia.org"} and "/thumb/" in external.path:
+                width = re.search(r"/(\d+)px-[^/]+$", external.path)
+                if width and int(width[1]) not in WIKIMEDIA_THUMBNAIL_WIDTHS:
+                    add("unsupported_thumbnail_width", source, reference.line, width[1],
+                        url=reference.url, category="disabled" if reference.disabled else "error")
             resolved = resolve_local(source, reference.url, base_url)
         except ValueError:
             add("invalid_url", source, reference.line, "Malformed URL", url=reference.url,

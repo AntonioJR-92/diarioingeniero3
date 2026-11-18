@@ -8,7 +8,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type='text/javascript'>
 
 $(document).ready(function(){ 
@@ -25,27 +24,22 @@ $(document).ready(function(){
     }); 
 });
 
-var cumplecondicion=true;
-var cadena="";
-while  (cumplecondicion) {
-cadena=prompt("escriba bienvenido para salir del bucle");
-if (cadena=="bienvenido") {
-         cumplecondicion=false;
-     }
-    
- } 
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('practica-bienvenida');
+    const input = document.getElementById('palabra-bienvenida');
+    const result = document.getElementById('resultado-bienvenida');
 
- function mueveReloj(){
-    momentoActual = new Date()
-    hora = momentoActual.getHours()
-    minuto = momentoActual.getMinutes()
-    segundo = momentoActual.getSeconds()
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const accepted = input.value.trim().toLowerCase() === 'bienvenido';
+        result.textContent = accepted ? '¡Bienvenido!' : 'Prueba de nuevo.';
+    });
+});
 
-    horaImprimible = hora + " : " + minuto + " : " + segundo
-
-    document.form_reloj.reloj.value = horaImprimible
-
-    setTimeout("mueveReloj()",1000)
+function mueveReloj() {
+    const reloj = document.forms.form_reloj.elements.reloj;
+    reloj.value = new Date().toLocaleTimeString('es-ES');
+    window.setTimeout(mueveReloj, 1000);
 }  
 
 
@@ -72,7 +66,16 @@ h2 {color:red;}
 </style>
 </head>
 
-<body style="background: #ecb3ff", onload="mueveReloj()">
+<body style="background: #ecb3ff" onload="mueveReloj()">
+<details class="container my-3">
+  <summary>Ejercicio de bienvenida</summary>
+  <form id="practica-bienvenida" class="mt-2">
+    <label for="palabra-bienvenida">Escribe «bienvenido»</label>
+    <input id="palabra-bienvenida" type="text" required>
+    <button type="submit" class="btn btn-primary">Comprobar</button>
+    <p id="resultado-bienvenida" role="status"></p>
+  </form>
+</details>
 <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 
 <div class="caja"></div>	
@@ -96,7 +99,7 @@ h2 {color:red;}
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
         Historia
       </a>
-      <div class="dropdown-menu">
+      <div class="dropdown-menu" aria-labelledby="navbardrop">
         <a class="dropdown-item" href="fundacion.html">Fundacion y primeros años</a>
         <a class="dropdown-item" href="#">Presiencia de Santiago Bernabeu</a>
         <a class="dropdown-item" href="#">La quinta del buitre</a>
@@ -108,10 +111,10 @@ h2 {color:red;}
       </div>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop-2" data-toggle="dropdown">
         Equipos de futbol
       </a>
-      <div class="dropdown-menu">
+      <div class="dropdown-menu" aria-labelledby="navbardrop-2">
         <a class="dropdown-item" href="#">Primer equipo</a>
         <a class="dropdown-item" href="#">Primer equipo femenino</a>
         <a class="dropdown-item" href="#">Cantera</a>
@@ -129,10 +132,10 @@ h2 {color:red;}
 <a href="https://validator.w3.org/feed/check.cgi?url=www.diariodeuningeniero.com%2Flm_brianda_21%2Frss%2FAJavierI_rss.xml"><img src="https://www.onepointsync.com/wp-content/uploads/2016/08/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
 <br>
 <div class="row pr-2">
-    <div class="col-lg-2col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-2" style="height: 600px;">
-    <img class="flo" src="IMAGS_AJavierIzquierdo/flo.png" height="600" widht="400"></div>
+    <div class="col-lg-2" style="height: 600px;">
+    <img class="flo" src="IMAGS_AJavierIzquierdo/flo.PNG" height="600" widht="400"></div>
 
-    <div class="col-lg-6col-xl-1 col-lg-2 col-md-2 d-none d-md-block d-lg-block d-xl-block sidebar-offcanvas sidebar_lft" id="sidebar">-9"style="height: 600px;">
+    <div class="col-lg-6" style="height: 600px;">
     <img class="foto_principal" src="IMAGS_AJavierIzquierdo/93.jpg" width="650" height="600"></div>
     
 	<div class="col-lg-4 d-none d-xl-block" style="height: 600px;">
@@ -146,16 +149,16 @@ h2 {color:red;}
   		</ul>
   		<div class="carousel-inner">
     	<div class="carousel-item active">
-      	<img src="IMAGS_AJavierIzquierdo/pantalon.png" height="600">
+      	<img src="IMAGS_AJavierIzquierdo/pantalon.PNG" height="600">
     	</div>
     	<div class="carousel-item">
-      	<img src="IMAGS_AJavierIzquierdo/sudadera.png" height="600">
+      	<img src="IMAGS_AJavierIzquierdo/sudadera.PNG" height="600">
    		 </div>
     	<div class="carousel-item">
-      	<img src="IMAGS_AJavierIzquierdo/balon.png" height="600">
+      	<img src="IMAGS_AJavierIzquierdo/balon.PNG" height="600">
     	</div>
     	<div class="carousel-item">
-      	<img src="IMAGS_AJavierIzquierdo/abrigo.png" height="600">
+      	<img src="IMAGS_AJavierIzquierdo/abrigo.PNG" height="600">
     	</div>
   		</div>
   		<a class="carousel-control-prev" href="#demo" data-slide="prev">

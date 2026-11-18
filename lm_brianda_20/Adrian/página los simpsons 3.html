@@ -159,7 +159,7 @@ html,body {
       <a class="nav-link active" href="#">INICIO</a>
     </li>
     <li class="nav-item ">
-      <a class="nav-link active" href="#video1">TRAILER PELÍCULA</a>
+      <a class="nav-link active" role="link" aria-disabled="true" data-unavailable-href="#video1"><small>(no disponible)</small> TRAILER PELÍCULA</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
@@ -189,16 +189,19 @@ html,body {
 
 
 <br>
-<a name="#formulario1"></a>
+<span id="formulario1"></span>
 <div class="container" style="background-color: #2d2d2d ; color: white" >
-<form action="/action_page.php" style="margin-top: 50px">
+<form style="margin-top: 50px" autocomplete="off" aria-describedby="archivo-demo-nota">
+  <p id="archivo-demo-nota">Formulario de demostración. Usa solo datos ficticios.</p>
+  <noscript><p>Activa JavaScript para probar el formulario.</p></noscript>
+  <fieldset data-demo-fields disabled style="margin:0;padding:0;border:0;min-width:0">
   <div class="form-group">
     <label for="email">Email:</label>
     <input type="email" class="form-control" placeholder="Enter email" id="email">
   </div>
   <div class="form-group">
     <label for="pwd">Contraseña:</label>
-    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd" autocomplete="new-password">
   </div>
   <div class="form-group form-check">
     <label class="form-check-label">
@@ -206,7 +209,22 @@ html,body {
     </label>
   </div>
   <button type="submit" class="btn" style="background-color:#23466c; color: white ">Enviar</button>
+  </fieldset>
+  <p data-demo-status role="status" aria-live="polite"></p>
 </form>
+<script>
+(function () {
+  const form = document.currentScript.previousElementSibling;
+  const fields = form.querySelector('[data-demo-fields]');
+  const status = form.querySelector('[data-demo-status]');
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    form.reset();
+    status.textContent = 'Demostración completada en esta página.';
+  });
+  fields.disabled = false;
+})();
+</script>
 </a>
 
 <ul class="pagination" style="margin-top: 70px" >
@@ -250,7 +268,7 @@ html,body {
       <li>Contact us</li>
       <li>Web chat</li>
       <li>Open ticket</li>
-      <li href="#formulario1">Formulario</li>
+      <li><a href="#formulario1">Formulario</a></li>
     </ul>
   </div>
   <div class="col social">

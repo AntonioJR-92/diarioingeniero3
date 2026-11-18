@@ -13,5 +13,53 @@
   "toledo_map_keyboard_cases": 4,
   "gallery_modal": "opened and closed",
   "wikiloc": "HTTP 403 in a desktop check",
-  "test_conditions": "Advertising and analytics requests were blocked. Contact links were inspected without sending email."
+  "test_conditions": "Advertising and analytics requests were blocked. Contact links were inspected without sending email.",
+  "follow_up": {
+    "released_local_photo_tests": [
+      {
+        "page": "mis_sitios/gc/gc_s_charco_azul_es.html",
+        "width": 320,
+        "errors": [],
+        "status": 200
+      },
+      {
+        "page": "mis_sitios/gc/gc_s_charco_azul_es.html",
+        "width": 1366,
+        "errors": [],
+        "status": 200
+      },
+      {
+        "page": "mis_sitios/gu/gu_s_ocejon_en.html",
+        "width": 320,
+        "errors": [],
+        "status": 200
+      },
+      {
+        "page": "mis_sitios/gu/gu_s_ocejon_en.html",
+        "width": 1366,
+        "errors": [],
+        "status": 200
+      },
+      {
+        "page": "blog/blog22_es_toledo_tres_culturas_es.html",
+        "width": 320,
+        "errors": [],
+        "status": 200
+      },
+      {
+        "page": "blog/blog22_es_toledo_tres_culturas_es.html",
+        "width": 1366,
+        "errors": [],
+        "status": 200
+      }
+    ],
+    "archived_form_demo_cases": 5,
+    "archived_store_form_structure": "verified",
+    "archived_markup_interactions": 5,
+    "archive_library_page_loads": 80,
+    "widths_px": [
+      320,
+      1366
+    ]
+  }
 }

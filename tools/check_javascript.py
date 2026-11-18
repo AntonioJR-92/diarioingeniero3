@@ -83,7 +83,7 @@ def html_files(root, include_archives=False):
         if not path.is_file() or path.suffix.lower() != ".html":
             continue
         relative = path.relative_to(root)
-        if ".git" in relative.parts or "node_modules" in relative.parts:
+        if {".git", "node_modules", "_vti_cnf"}.intersection(relative.parts):
             continue
         if include_archives or len(relative.parts) == 1 or relative.parts[0] in MAIN_DIRECTORIES:
             yield path

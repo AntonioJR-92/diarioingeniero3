@@ -10,7 +10,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!--ICONO PAGINA-->
   <link rel="shortcut icon" type="imagen/x-icon" href="https://pbs.twimg.com/profile_images/659488701123284992/epoa-cbR.jpg">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type='text/javascript'>
 
 $(document).ready(function(){ 
@@ -76,7 +75,7 @@ $(document).ready(function(){
     <!--DEPLEGABLE NOTICIAS PARTIDOS-->
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">PARTIDOS</a>
-      <div class="dropdown-menu">
+      <div class="dropdown-menu" aria-labelledby="navbardrop">
          <a class="dropdown-item" href="#section11">SACEDON-CACERES</a>
         <a class="dropdown-item" href="#section12">NAVALMORAL-SACEDON</a>
         <a class="dropdown-item"href="#section13">TORREJON-SACEDON</a>
@@ -85,17 +84,17 @@ $(document).ready(function(){
     </li>
     <!--DEPLEGABLE NOTICIAS FICHAJES-->
      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FICHAJES</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#section21">ANDRÉS DARÍO</a>
-        <a class="dropdown-item"href="#section22">JAVIER SANCHEZ</a>
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop-2" data-toggle="dropdown">FICHAJES</a>
+      <div class="dropdown-menu" aria-labelledby="navbardrop-2">
+        <a class="dropdown-item" role="link" aria-disabled="true" data-unavailable-href="#section21"><small>(no disponible)</small> ANDRÉS DARÍO</a>
+        <a class="dropdown-item" role="link" aria-disabled="true" data-unavailable-href="#section22"><small>(no disponible)</small> JAVIER SANCHEZ</a>
       </div>
     </li>
 
     <!--DEPLEGABLE NOTICIAS PREMIOS-->
      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">PREMIOS</a>
-      <div class="dropdown-menu">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop-3" data-toggle="dropdown">PREMIOS</a>
+      <div class="dropdown-menu" aria-labelledby="navbardrop-3">
         <a class="dropdown-item" href="#section31">PREMIO NUEVA ALCARRIA</a>
       </div>
     </li>

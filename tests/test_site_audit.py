@@ -114,6 +114,40 @@ class StaticSiteAuditTests(unittest.TestCase):
         self.assertEqual(json.dumps(audit_site.audit(self.root, True)),
                          json.dumps(audit_site.audit(self.root, True)))
 
+    def test_unsupported_hotlinked_wikimedia_thumbnail_width_is_reported(self):
+        base = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal.svg/"
+        self.write("index.html", f'<img src="{base}100px-Seal.svg.png">'
+                   f'<img src="{base}120px-Seal.svg.png">')
+        report = audit_site.audit(self.root)
+        self.assertEqual([(issue["code"], issue["detail"]) for issue in report["issues"]],
+                         [("unsupported_thumbnail_width", "100")])
+
+    def test_form_targets_and_submit_overrides_are_checked(self):
+        self.write("index.html", '<form action="missing.php"><button formaction="other.html">Try</button></form>'
+                   '<form action="mailto:editor@example.com"><button>Mail</button></form>')
+        self.write("other.html", '<p>Example</p>')
+        result = audit_site.audit(self.root)["issues"]
+        self.assertEqual([(item["code"], item["url"]) for item in result], [("missing_file", "missing.php")])
+
+    def test_published_site_urls_and_local_computer_urls_are_checked(self):
+        self.write("index.html", '<a href="https://antoniojr-92.github.io/diarioingeniero3/">Home</a>'
+                   '<a href="//antoniojr-92.github.io/diarioingeniero3/viajes/post_es.html#entry">Post</a>'
+                   '<a href="https://antoniojr-92.github.io/other/post.html">Other site</a>'
+                   '<a href="file:///C:/temp/photo.jpg">Local file</a>'
+                   '<img src="//diarioingeniero/imags/missing.jpg">')
+        self.write("viajes/post_es.html", '<html lang="es"><a id="entry"></a></html>')
+        findings = audit_site.audit(self.root)["issues"]
+        self.assertEqual({item["code"] for item in findings}, {"local_machine_url", "missing_file"})
+        self.assertEqual([item["detail"] for item in findings if item["code"] == "missing_file"],
+                         ["imags/missing.jpg"])
+
+    def test_frontpage_metadata_is_not_a_rendered_page(self):
+        self.write("css/_vti_cnf/social_uk_es.html", "vti_encoding:SR|utf8-nl\n")
+        self.write("css/example_es.html", '<html lang="es">Ejemplo</html>')
+        report = audit_site.audit(self.root, include_archives=True)
+        self.assertEqual(report["summary"]["html_files"], 1)
+        self.assertEqual(report["issues"], [])
+
     def test_local_base_and_external_base_use_document_url_rules(self):
         self.write("index.html", '<base href="/viajes/"><a href="post_es.html#entry">Post</a>')
         self.write("viajes/post_es.html", '<html lang="es"><a id="entry"></a></html>')

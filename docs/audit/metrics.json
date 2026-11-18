@@ -454,5 +454,45 @@
     "http_200": 44,
     "uncaught_javascript_errors": 0,
     "max_horizontal_overflow_px": 0
+  },
+  "follow_up": {
+    "main": {
+      "html_files": 850,
+      "css_files": 1,
+      "local_references": 87785,
+      "issues": 0,
+      "errors": 0,
+      "warnings": 0,
+      "disabled_references": 0
+    },
+    "including_archives": {
+      "html_files": 1037,
+      "css_files": 28,
+      "local_references": 91134,
+      "issues": 0,
+      "errors": 0,
+      "warnings": 0,
+      "disabled_references": 0
+    },
+    "documented_fallback_rows": 543,
+    "archive_asset_changes": {
+      "regenerated_icon_mappings": 42,
+      "repaired_reference": 27,
+      "unavailable_link": 33,
+      "unavailable_video": 20,
+      "repaired_case": 39,
+      "unavailable_stylesheet": 42,
+      "repaired_local_path": 282,
+      "unavailable_image": 13,
+      "restored_rss_link": 2,
+      "removed_nonfunctional_control_attrs": 46,
+      "unavailable_background": 3,
+      "unavailable_script": 1
+    },
+    "external_assets": {
+      "wikimedia_thumbnail_urls": 357,
+      "toledo_backgrounds": 117,
+      "hiking_pages": 30
+    }
   }
 }

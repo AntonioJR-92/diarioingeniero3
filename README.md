@@ -12,16 +12,16 @@ necesitan instalar paquetes adicionales.
 ```sh
 python3 -m unittest discover -s tests -p '*test*.py'
 node --test tests/cookies.test.js
-python3 tools/check_javascript.py
-python3 tools/audit_site.py --baseline docs/audit/known-issues.json
+python3 tools/check_javascript.py --include-archives
+python3 tools/audit_site.py --include-archives --baseline docs/audit/archive-issues.json
 python3 tools/generate_sitemap.py --check
 ```
 
 GitHub Actions ejecuta estas mismas comprobaciones en cada push y pull request.
-El control de enlaces admite únicamente las incidencias pendientes enumeradas
-en `docs/audit/known-issues.json`; que pase no significa que todos los recursos
-históricos estén disponibles. No actualices esa lista automáticamente para
-ocultar fallos nuevos: revisa el informe y el motivo de cada excepción.
+El auditor comprueba los archivos de la web principal y de los ejercicios
+históricos, con las incidencias activas en `docs/audit/archive-issues.json`.
+El inventario de originales pendientes indica los recursos históricos para los
+que la página ofrece un aviso o una alternativa verificada.
 
 Para obtener el inventario completo de problemas locales, incluyendo los ya
 conocidos:
